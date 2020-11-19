@@ -24,15 +24,15 @@
 }
 
 .col-15 {
-  width: calc((100% / 15) * 11);
+  width: calc((100% / 16) * 15);
 }
 
 .col-14 {
-  width: calc((100% / 14) * 11);
+  width: calc((100% / 16) * 14);
 }
 
 .col-13 {
-  width: calc((100% / 13) * 11);
+  width: calc((100% / 16) * 13);
 }
 
 .col-12 {
