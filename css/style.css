@@ -5,3 +5,18 @@
   height: 250px;
   line-height: 250px;
 }
+
+[class*="col-"] .container [class*="col-"] {
+  background-color: lightcoral;
+  border: 1px solid white;
+  height: 240px;
+  line-height: normal;
+  position: relative;
+}
+
+[class*="col-"] .container [class*="col-"] .nested {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -64,5 +64,9 @@
 }
 
 .col-1 {
-  width: calc((100% / 12) * 1);
+  width: calc(100% / 12);
+}
+
+[class*="col-"] .container {
+  padding: 5px;
 }
