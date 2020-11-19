@@ -1,0 +1,23 @@
+.page-container {
+  border: 1px solid black;
+}
+
+[class*="col-"] {
+  height: 70px;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.orange {
+  background-color: #FF921C;
+}
+
+.red {
+  background-color: #E50202;
+}
+
+.white {
+  background-color: white;
+}
